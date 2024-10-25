@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>SmeltSteelFromDebris</defName>
+    <label>smelt steel from debris</label>
+    <description>Use heat and strong electromagnets to separate as much useful steel from useless rock debris as possible.</description>
+    <jobString>Smelting steel from rock debris.</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkLimestone</li>
+            <li>ChunkGranite</li>
+            <li>ChunkSandstone</li>
+            <li>ChunkSlate</li>
+            <li>ChunkMarble</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Steel>100</Steel>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChunkLimestone</li>
+        <li>ChunkGranite</li>
+        <li>ChunkSandstone</li>
+        <li>ChunkSlate</li>
+        <li>ChunkMarble</li>
+      </thingDefs>
+    </fixedIngredientFilter>	
+	<skillRequirements>
+		<Crafting>5</Crafting>
+	</skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>BulkSmeltSteelFromDebris</defName>
+    <label>bulk smelt steel from debris</label>
+    <description>Use heat and strong electromagnets to separate as much useful steel from useless rock debris as possible.</description>
+    <jobString>Smelting steel from rock debris.</jobString>
+    <workAmount>4000</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkLimestone</li>
+            <li>ChunkGranite</li>
+            <li>ChunkSandstone</li>
+            <li>ChunkSlate</li>
+            <li>ChunkMarble</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <Steel>500</Steel>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChunkLimestone</li>
+        <li>ChunkGranite</li>
+        <li>ChunkSandstone</li>
+        <li>ChunkSlate</li>
+        <li>ChunkMarble</li>
+      </thingDefs>
+    </fixedIngredientFilter>	
+	<skillRequirements>
+		<Crafting>5</Crafting>
+	</skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+</Defs>

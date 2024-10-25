@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RecipeDef Name="ConvertWastepackUranium">
+		<defName>ConvertWastepackUranium</defName>
+		<label>Convert Wastepack into Uranium</label>
+		<description>Convert Wastepack into Uranium.</description>
+		<jobString>Convert Wastepack into Uranium.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Wastepack</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Wastepack</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Uranium>10</Uranium>
+		</products>
+		<workAmount>100</workAmount>
+		<workSkill>Crafting</workSkill>
+		<researchPrerequisite>ExperimentalFabrication</researchPrerequisite>
+		<recipeUsers>
+			<li>TableMachining</li>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>

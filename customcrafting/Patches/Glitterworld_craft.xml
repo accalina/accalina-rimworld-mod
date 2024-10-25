@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName="MedicineUltratech"]/statBases</xpath>
+			<value>
+				<WorkToMake>2100</WorkToMake>
+			</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName="MedicineUltratech"]</xpath>
+		<value>
+			<costList>
+				<MedicineIndustrial>5</MedicineIndustrial>
+			</costList>
+			<recipeMaker>
+				<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+				<workSkill>Intellectual</workSkill>
+				<recipeUsers>
+					<li>DrugLab</li>
+				</recipeUsers>
+				<researchPrerequisite>AutonomousFabrication</researchPrerequisite>
+				<skillRequirements>
+					<Intellectual>10</Intellectual>
+					<Crafting>10</Crafting>
+				</skillRequirements>
+			</recipeMaker>
+		</value>
+	</Operation>
+</Patch>
