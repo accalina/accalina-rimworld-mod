@@ -24,6 +24,7 @@
 			<Neutroamine>5</Neutroamine>
 		</products>
 		<workAmount>200</workAmount>
+		<workSkillLearnFactor>1</workSkillLearnFactor>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
 			<li>DrugLab</li>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="NeuralSupercharger"]/costList</xpath>
+        <value>
+            <!-- Original: 50 Steel and 4 standard components -->
+            <costList>
+                <Steel>250</Steel>
+                <ComponentIndustrial>8</ComponentIndustrial>
+                <ComponentSpacer>2</ComponentSpacer>
+            </costList>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="NeuralSupercharger"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
+        <value>
+            <!-- Original: 400W -->
+            <basePowerConsumption>240</basePowerConsumption>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="NeuralSupercharger"]/comps/li[@Class="CompProperties_NeuralSupercharger"]/ticksToRecharge</xpath>
+        <value>
+            <!-- Recharge -->
+            <!-- Original: 60000 ticks / 24 hours -->
+            <ticksToRecharge>2500</ticksToRecharge>
+            <!-- 4 hours = 10000-->
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="NeuralSupercharge"]/comps/li[@Class="HediffCompProperties_Disappears"]/disappearsAfterTicks</xpath>
+        <value>
+            <!-- Effect last on -->
+            <!-- Original: 60000 ticks / 24 hours -->
+            <disappearsAfterTicks>720000</disappearsAfterTicks>
+            <!-- 48 hours = 120000 -->
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/SoundDef[defName="NeuralSupercharger_Ready"]/subSounds/li/volumeRange</xpath>
+        <value>
+            <!-- Volume -->
+            <!-- Original: 30 -->
+            <volumeRange>10</volumeRange>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/SoundDef[defName="NeuralSupercharger_Ready"]/subSounds/li/distRange</xpath>
+        <value>
+            <!-- Original: 15~30 -->
+            <distRange>10~20</distRange>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/SoundDef[defName="NeuralSupercharger_Injection"]/subSounds/li/volumeRange</xpath>
+        <value>
+            <!-- Original: 30 -->
+            <volumeRange>20</volumeRange>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/SoundDef[defName="NeuralSupercharger_Injection"]/subSounds/li/distRange</xpath>
+        <value>
+            <!-- Original: 15~30 -->
+            <distRange>10~20</distRange>
+        </value>
+    </Operation>
+</Patch>

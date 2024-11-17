@@ -36,6 +36,7 @@
         <li>ChunkMarble</li>
       </thingDefs>
     </fixedIngredientFilter>	
+  <workSkillLearnFactor>1</workSkillLearnFactor>
 	<skillRequirements>
 		<Crafting>5</Crafting>
 	</skillRequirements>
@@ -51,6 +52,7 @@
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
+    <workSkillLearnFactor>2</workSkillLearnFactor>
     <ingredients>
       <li>
         <filter>

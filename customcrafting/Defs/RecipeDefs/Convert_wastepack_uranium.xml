@@ -5,6 +5,7 @@
 		<label>Convert Wastepack into Uranium</label>
 		<description>Convert Wastepack into Uranium.</description>
 		<jobString>Convert Wastepack into Uranium.</jobString>
+		<workSkillLearnFactor>1</workSkillLearnFactor>
 		<ingredients>
 			<li>
 				<filter>
@@ -21,7 +22,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Uranium>10</Uranium>
+			<Uranium>100</Uranium>
 		</products>
 		<workAmount>100</workAmount>
 		<workSkill>Crafting</workSkill>

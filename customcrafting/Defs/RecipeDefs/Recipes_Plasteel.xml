@@ -9,8 +9,8 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>3000</workAmount>
-		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<workAmount>300</workAmount>
+		<workSkillLearnFactor>1</workSkillLearnFactor>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 		<recipeUsers>
 			<li>TableMachining</li>
@@ -22,7 +22,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>125</count>
+				<count>100</count>
 			</li>
 			<li>
 				<filter>
@@ -40,7 +40,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Plasteel>25</Plasteel>
+			<Plasteel>100</Plasteel>
 		</products>
 		<skillRequirements>
 			<Crafting>6</Crafting>
@@ -50,15 +50,15 @@
 
 	<RecipeDef>
 		<defName>MakePlasteelFromMachining_5</defName>
-		<label>make plasteel x4</label>
+		<label>make plasteel x550</label>
 		<description>Craft plasteel from chemfuel and steel.</description>
 		<jobString>crafting plasteel x4</jobString>
 		<researchPrerequisite>ExperimentalFabrication</researchPrerequisite>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>9000</workAmount>
-		<workSkillLearnFactor>0.6</workSkillLearnFactor>
+		<workAmount>900</workAmount>
+		<workSkillLearnFactor>1.5</workSkillLearnFactor>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 		<recipeUsers>
 			<li>TableMachining</li>
@@ -78,7 +78,7 @@
 						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
-				<count>40</count>
+				<count>200</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -88,7 +88,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Plasteel>110</Plasteel>
+			<Plasteel>550</Plasteel>
 		</products>
 		<skillRequirements>
 			<Crafting>10</Crafting>

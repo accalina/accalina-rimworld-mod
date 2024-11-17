@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>MinorNanoStructure</defName>
+		<label>minor nano structure</label>
+		<description>Carriers of this gene have minor adaptive metabolism to accomodate spaces for another positive genes.</description>
+		<iconPath>UI/Icons/Genes/Gene_GenomeDominant</iconPath>
+		<displayOrderInCategory>0</displayOrderInCategory>
+		<displayCategory>Reproduction</displayCategory>
+		<biostatMet>3</biostatMet>
+		<biostatCpx>1</biostatCpx>
+	</GeneDef>
+	<GeneDef>
+		<defName>ModerateNanoStructure</defName>
+		<label>moderate nano structure</label>
+		<description>Carriers of this gene have moderate adaptive metabolism to accomodate spaces for another positive genes.</description>
+		<iconPath>UI/Icons/Genes/Gene_GenomeDominant</iconPath>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<displayCategory>Reproduction</displayCategory>
+		<biostatMet>5</biostatMet>
+		<biostatCpx>2</biostatCpx>
+	</GeneDef>
+	<GeneDef>
+		<defName>MajorNanoStructure</defName>
+		<label>major nano structure</label>
+		<description>Carriers of this gene have major adaptive metabolism to accomodate spaces for another positive genes.</description>
+		<iconPath>UI/Icons/Genes/Gene_GenomeDominant</iconPath>
+		<displayOrderInCategory>2</displayOrderInCategory>
+		<displayCategory>Reproduction</displayCategory>
+		<biostatMet>7</biostatMet>
+		<biostatCpx>3</biostatCpx>
+	</GeneDef>
+	<GeneDef>
+		<defName>SevereNanoStructure</defName>
+		<label>severe nano structure</label>
+		<description>Carriers of this gene have severe adaptive metabolism to accomodate spaces for another positive genes.</description>
+		<iconPath>UI/Icons/Genes/Gene_GenomeDominant</iconPath>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<displayCategory>Reproduction</displayCategory>
+		<biostatMet>10</biostatMet>
+		<biostatCpx>3</biostatCpx>
+	</GeneDef>
+	<GeneDef>
+		<defName>ExtremeNanoStructure</defName>
+		<label>extreme nano structure</label>
+		<description>Carriers of this gene have extreme adaptive metabolism to accomodate spaces for another positive genes.</description>
+		<iconPath>UI/Icons/Genes/Gene_GenomeDominant</iconPath>
+		<displayOrderInCategory>4</displayOrderInCategory>
+		<displayCategory>Reproduction</displayCategory>
+		<biostatMet>20</biostatMet>
+		<biostatCpx>3</biostatCpx>
+	</GeneDef>
+</Defs>

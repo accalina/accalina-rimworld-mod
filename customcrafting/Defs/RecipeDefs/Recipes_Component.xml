@@ -8,8 +8,9 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>20000</workAmount>
+		<workAmount>200</workAmount>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<workSkillLearnFactor>1</workSkillLearnFactor>
 		<ingredients>
 			<li>
 				<filter>
@@ -46,8 +47,9 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>75000</workAmount>
+		<workAmount>750</workAmount>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<workSkillLearnFactor>1.5</workSkillLearnFactor>
 		<ingredients>
 			<li>
 				<filter>
