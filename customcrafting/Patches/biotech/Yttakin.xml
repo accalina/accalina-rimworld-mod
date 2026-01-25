@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationRemove">
+    <!-- <genes>
+      <li>Body_Hulk</li>
+      <li>VoiceRoar</li>
+      <li>Furskin</li>
+      <li>Hair_BaldOnly</li>
+      <li>Tail_Furry</li>
+      <li>Beard_Always</li>
+      <li>AnimalWarcall</li>
+      <li>Robust</li>
+      <li>AptitudeRemarkable_Animals</li>
+      <li>MeleeDamage_Strong</li>
+      <li>Sleepy</li>
+      <li>PsychicAbility_Dull</li>
+      <li>NakedSpeed</li>
+      <li>WoundHealing_Slow</li>
+      <li>Aggression_Aggressive</li>
+      <li>AptitudeTerrible_Mining</li>
+    </genes> -->
+
+
+    <!-- Remove Body_Hulk -->
+    <!-- Remove Furskin -->
+    <!-- Remove Hair_BaldOnly -->
+    <!-- Remove Beard_Always -->
+    <xpath>
+      Defs/XenotypeDef[defName="Yttakin"]/genes/li[1] | 
+      Defs/XenotypeDef[defName="Yttakin"]/genes/li[3] | 
+      Defs/XenotypeDef[defName="Yttakin"]/genes/li[4] | 
+      Defs/XenotypeDef[defName="Yttakin"]/genes/li[6]
+    </xpath>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/XenotypeDef[defName="Yttakin"]/genes</xpath>
+	<value>
+      <li>MinTemp_SmallDecrease</li>
+      <li>Ears_Cat</li>
+	</value>
+  </Operation>
+	
+</Patch>

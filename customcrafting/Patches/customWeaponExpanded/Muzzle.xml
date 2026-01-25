@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+            <!-- CWF_Trait_QuickMagazine -->
+            <!-- <li Class="PatchOperationReplace">
+                <xpath>/Defs/WeaponTraitDef[defName="CWE_Trait_Suppressor"]/statFactors/RangedWeapon_DamageMultiplier</xpath>
+                <value>
+                    <RangedWeapon_DamageMultiplier>1.5</RangedWeapon_DamageMultiplier>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/WeaponTraitDef[defName="CWE_Trait_Suppressor"]/statFactors</xpath>
+                <value>
+                    <RangedWeapon_ArmorPenetrationMultiplier>0.5</RangedWeapon_ArmorPenetrationMultiplier>
+                </value>
+            </li> -->
+
+
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/WeaponTraitDef[defName="CWE_Trait_MuzzleBrake"]/statFactors</xpath>
+                <value>
+                    <RangedWeapon_DamageMultiplier>1.2</RangedWeapon_DamageMultiplier>
+                </value>
+            </li>
+
+		</operations>
+	</Operation>
+</Patch>

@@ -7,7 +7,7 @@
 		<iconPath>UI/Icons/Genes/Gene_GenomeDominant</iconPath>
 		<displayOrderInCategory>0</displayOrderInCategory>
 		<displayCategory>Reproduction</displayCategory>
-		<biostatMet>3</biostatMet>
+		<biostatMet>10</biostatMet>
 		<biostatCpx>1</biostatCpx>
 	</GeneDef>
 	<GeneDef>
@@ -17,8 +17,8 @@
 		<iconPath>UI/Icons/Genes/Gene_GenomeDominant</iconPath>
 		<displayOrderInCategory>1</displayOrderInCategory>
 		<displayCategory>Reproduction</displayCategory>
-		<biostatMet>5</biostatMet>
-		<biostatCpx>2</biostatCpx>
+		<biostatMet>15</biostatMet>
+		<biostatCpx>1</biostatCpx>
 	</GeneDef>
 	<GeneDef>
 		<defName>MajorNanoStructure</defName>
@@ -27,8 +27,8 @@
 		<iconPath>UI/Icons/Genes/Gene_GenomeDominant</iconPath>
 		<displayOrderInCategory>2</displayOrderInCategory>
 		<displayCategory>Reproduction</displayCategory>
-		<biostatMet>7</biostatMet>
-		<biostatCpx>3</biostatCpx>
+		<biostatMet>20</biostatMet>
+		<biostatCpx>1</biostatCpx>
 	</GeneDef>
 	<GeneDef>
 		<defName>SevereNanoStructure</defName>
@@ -37,8 +37,8 @@
 		<iconPath>UI/Icons/Genes/Gene_GenomeDominant</iconPath>
 		<displayOrderInCategory>3</displayOrderInCategory>
 		<displayCategory>Reproduction</displayCategory>
-		<biostatMet>10</biostatMet>
-		<biostatCpx>3</biostatCpx>
+		<biostatMet>25</biostatMet>
+		<biostatCpx>1</biostatCpx>
 	</GeneDef>
 	<GeneDef>
 		<defName>ExtremeNanoStructure</defName>
@@ -47,7 +47,7 @@
 		<iconPath>UI/Icons/Genes/Gene_GenomeDominant</iconPath>
 		<displayOrderInCategory>4</displayOrderInCategory>
 		<displayCategory>Reproduction</displayCategory>
-		<biostatMet>20</biostatMet>
-		<biostatCpx>3</biostatCpx>
+		<biostatMet>40</biostatMet>
+		<biostatCpx>1</biostatCpx>
 	</GeneDef>
 </Defs>

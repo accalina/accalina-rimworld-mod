@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+            <!-- ================================= UNDERBARREL ================================= -->
+			<!-- CWF_Trait_VerticalGrip -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WeaponTraitDef[defName="CWF_Trait_VerticalGrip"]/statFactors</xpath>
+				<value>
+					<statFactors>
+                        <AccuracyTouch>2.0</AccuracyTouch>
+                        <AccuracyShort>2.0</AccuracyShort>
+                    </statFactors>
+				</value>
+			</li>
+
+            <!-- CWF_Trait_TriangularGrip -->
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/WeaponTraitDef[defName="CWF_Trait_TriangularGrip"]/statFactors</xpath>
+                <value>
+                    <statFactors>
+                        <AccuracyMedium>2.0</AccuracyMedium>
+                        <AccuracyLong>2.0</AccuracyLong>
+                    </statFactors>
+                </value>
+            </li>
+
+            <!-- CWF_Trait_LaserSight -->
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/WeaponTraitDef[defName="CWF_Trait_LaserSight"]/statFactors</xpath>
+                <value>
+                    <statFactors>
+                        <AccuracyShort>2.0</AccuracyShort>
+                        <AccuracyMedium>2.0</AccuracyMedium>
+                    </statFactors>
+                </value>
+            </li>
+
+            <!-- CWF_Trait_GrenadeLauncher -->
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/WeaponTraitDef[defName="CWF_Trait_GrenadeLauncher"]/abilityProps/maxCharges</xpath>
+                <value>
+                    <maxCharges>6</maxCharges>
+                </value>
+            </li>
+
+            <!-- CWF_Trait_EMPLauncher -->
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/WeaponTraitDef[defName="CWF_Trait_EMPLauncher"]/abilityProps/maxCharges</xpath>
+                <value>
+                    <maxCharges>6</maxCharges>
+                </value>
+            </li>
+
+            <!-- CWF_Trait_SmokeLauncher -->
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/WeaponTraitDef[defName="CWF_Trait_SmokeLauncher"]/abilityProps/maxCharges</xpath>
+                <value>
+                    <maxCharges>6</maxCharges>
+                </value>
+            </li>
+
+            <!-- CWF_Trait_IncendiaryLauncher -->
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/WeaponTraitDef[defName="CWF_Trait_IncendiaryLauncher"]/abilityProps/maxCharges</xpath>
+                <value>
+                    <maxCharges>6</maxCharges>
+                </value>
+            </li>
+		</operations>
+	</Operation>
+</Patch>

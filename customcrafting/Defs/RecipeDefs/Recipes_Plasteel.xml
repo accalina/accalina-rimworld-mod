@@ -78,7 +78,7 @@
 						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
-				<count>200</count>
+				<count>50</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -89,6 +89,54 @@
 		</fixedIngredientFilter>
 		<products>
 			<Plasteel>550</Plasteel>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>MakePlasteelFromUranium</defName>
+		<label>Refine Uranium into plasteel x100</label>
+		<description>Craft plasteel from uranium and chemfuel.</description>
+		<jobString>crafting plasteel from uranium and chemfuel</jobString>
+		<researchPrerequisite>ExperimentalFabrication</researchPrerequisite>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>900</workAmount>
+		<workSkillLearnFactor>2.0</workSkillLearnFactor>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<recipeUsers>
+			<li>TableMachining</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Uranium</li>
+				<li>Chemfuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Plasteel>100</Plasteel>
 		</products>
 		<skillRequirements>
 			<Crafting>10</Crafting>

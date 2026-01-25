@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+            <!-- ================================= MAGAZINES ================================= -->
+            <!-- CWF_Trait_QuickMagazine -->
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/WeaponTraitDef[defName="CWF_Trait_QuickMagazine"]/statFactors/RangedWeapon_Cooldown</xpath>
+                <value>
+                    <!-- <reloadTimeMultiplier>0.75</reloadTimeMultiplier> -->
+                    <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/WeaponTraitDef[defName="CWF_Trait_QuickMagazine"]</xpath>
+                <value>
+                    <burstShotCountMultiplier>1.15</burstShotCountMultiplier>
+                </value>
+            </li>
+
+
+            <!-- CWF_Trait_ExtendedMagazine -->
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/WeaponTraitDef[defName="CWF_Trait_ExtendedMagazine"]/burstShotCountMultiplier</xpath>
+                <value>
+                    <burstShotCountMultiplier>1.5</burstShotCountMultiplier>
+                </value>
+            </li>
+
+            <!-- CWF_Trait_DrumMagazine -->
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/WeaponTraitDef[defName="CWF_Trait_DrumMagazine"]/burstShotCountMultiplier</xpath>
+                <value>
+                    <burstShotCountMultiplier>2.0</burstShotCountMultiplier>
+                </value>
+            </li>
+
+            <!-- CWF_Trait_BeltMagazine -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WeaponTraitDef[defName="CWF_Trait_BeltMagazine"]/burstShotCountMultiplier</xpath>
+				<value>
+					<burstShotCountMultiplier>3.0</burstShotCountMultiplier>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>

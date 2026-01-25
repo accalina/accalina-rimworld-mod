@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <WeaponTraitDef>
+        <defName>CC_SleepDart</defName>
+        <label>tranquilizer dart</label>
+        <description>Applies a tranquilizer effect to targets, causing them to fall unconscious.</description>
+        <damageDefOverride>CC_SleepDart</damageDefOverride>
+        <commonality>0.1</commonality>
+    </WeaponTraitDef>
+</Defs>

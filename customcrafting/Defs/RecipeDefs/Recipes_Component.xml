@@ -2,7 +2,7 @@
 <Defs>
 	<RecipeDef>
 		<defName>Make_ComponentIndustrialx10</defName>
-		<label>make component x10</label>
+		<label>make component x100</label>
 		<description>Make hundred components.</description>
 		<jobString>Making 100 components.</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>

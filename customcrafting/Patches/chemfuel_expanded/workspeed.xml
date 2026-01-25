@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PS_DeepchemRefinery"]/comps/li[@Class="PipeSystem.CompProperties_ResourceProcessor"]/results</xpath>
+		<value>
+            <results>
+                <li>
+                    <countNeeded>1</countNeeded>
+                    <eachTicks>100</eachTicks>
+
+                    <thing>Chemfuel</thing>
+                    <thingCount>45</thingCount>
+                    <net>VCHE_ChemfuelNet</net>
+                    <netCount>45</netCount>
+                </li>
+            </results>
+		</value>
+	</Operation>
+    
+</Patch>
+

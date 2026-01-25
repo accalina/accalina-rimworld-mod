@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Tranquil rounds -->
+    <ThingDef ParentName="CWF_Module">
+        <defName>CC_CWE_Ammo_Sleep_rounds</defName>
+        <label>tranquilizer rounds</label>
+        <thingClass>ThingWithComps</thingClass>
+        <description>Shoots tranquilizer darts to sedate targets.</description>
+        <graphicData>
+            <texPath>CustomizeWeapon/Modules/Ammo/Ammo</texPath>
+        </graphicData>
+        <statBases>
+            <WorkToMake>1500</WorkToMake>
+        </statBases>
+        <costList>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>Gunsmithing</li>
+            </researchPrerequisites>
+        </recipeMaker>
+        <tradeTags>
+            <li>Module_Ammo</li>
+        </tradeTags>
+        <modExtensions>
+            <li Class="CWF.TraitModuleExtension">
+                <weaponTraitDef>CC_SleepDart</weaponTraitDef>
+                <part>Ammo</part>
+                <requiredWeaponTags>
+                    <li>CWF_AssaultRifle</li>
+                    <li>CWF_BoltActionRifle</li>
+                    <li>CWF_SniperRifle</li>
+                    <li>CWF_Handgun</li>
+                    <li>CWF_SMG</li>
+                    <li>CWF_LMG</li>
+                    <li>CWF_Minigun</li>
+                    <li>CWF_Charge</li>
+                </requiredWeaponTags>
+            </li>
+            </modExtensions>
+    </ThingDef>
+</Defs>
