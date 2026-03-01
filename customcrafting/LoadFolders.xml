@@ -1,0 +1,8 @@
+<loadFolders>
+	<v1.6>
+		<li>/</li>
+		<li IfModActive="ThotDestroyer.TheHangedMenArmory">Mods/HangmanArmory</li>
+	</v1.6>
+</loadFolders>
+
+

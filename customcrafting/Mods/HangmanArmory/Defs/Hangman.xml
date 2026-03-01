@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<CWF.AdapterDef>
+			<defName>K5_Rifle</defName>
+			<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/K5_Rifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+			<weaponTags>
+				<li>CWE_Ammo_Powder</li>
+				<li>CWE_BurstFire_L</li>
+				<li>CWE_BurstFire_M</li>
+				<li>CWE_Magazine_L_Powder</li>
+				<li>CWE_Magazine_M_Powder</li>
+				<li>CWE_Magazine_S_Powder</li>
+				<li>CWE_Sights_L</li>
+				<li>CWE_Sights_M</li>
+				<li>CWE_Sights_S</li>
+				<li>CWE_Underbarrel_L</li>
+				<li>CWE_Underbarrel_M</li>
+				<li>CWE_Underbarrel_S</li>
+				<li>CWF_AssaultRifle</li>
+				<li>CWF_BurstFire</li>
+			</weaponTags>
+			<comps>
+			<li Class="CWF.CompProperties_AbilityProvider" />
+			<li Class="CWF.CompProperties_DynamicTraits">
+					<supportParts>
+						<li>Muzzle</li>
+						<li>Barrel</li>
+						<li>Receiver</li>
+						<li>Trigger</li>
+						<li>Stock</li>
+						<li>Grip</li>
+						<li>Sight</li>
+						<li>Magazine</li>
+						<li>Underbarrel</li>
+						<li>Ammo</li>
+					</supportParts>
+			</li>
+			<li Class="CWF.CompProperties_DynamicGraphic">
+					<attachmentPoints>
+						<li>
+								<part>Receiver</part>
+								<baseTexture>
+								<texturePath>Things/Item/Equipment/WeaponRanged/K5_Rifle</texturePath>
+								<offset>(0, 0)</offset>
+								</baseTexture>
+								<layer>0</layer>
+						</li>
+					</attachmentPoints>
+			</li>
+			</comps>
+	</CWF.AdapterDef>
+
+	<CWF.AdapterDef>
+			<defName>K2_BullpupRifle</defName>
+			<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/K2_BullpupRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+			<weaponTags>
+				<li>CWE_Ammo_Powder</li>
+				<li>CWE_BurstFire_L</li>
+				<li>CWE_BurstFire_M</li>
+				<li>CWE_Magazine_L_Powder</li>
+				<li>CWE_Magazine_M_Powder</li>
+				<li>CWE_Magazine_S_Powder</li>
+				<li>CWE_Sights_L</li>
+				<li>CWE_Sights_M</li>
+				<li>CWE_Sights_S</li>
+				<li>CWE_Underbarrel_L</li>
+				<li>CWE_Underbarrel_M</li>
+				<li>CWE_Underbarrel_S</li>
+				<li>CWF_AssaultRifle</li>
+				<li>CWF_BurstFire</li>
+			</weaponTags>
+			<comps>
+			<li Class="CWF.CompProperties_AbilityProvider" />
+			<li Class="CWF.CompProperties_DynamicTraits">
+					<supportParts>
+						<li>Muzzle</li>
+						<li>Barrel</li>
+						<li>Receiver</li>
+						<li>Trigger</li>
+						<li>Stock</li>
+						<li>Grip</li>
+						<li>Sight</li>
+						<li>Magazine</li>
+						<li>Underbarrel</li>
+						<li>Ammo</li>
+					</supportParts>
+			</li>
+			<li Class="CWF.CompProperties_DynamicGraphic">
+					<attachmentPoints>
+						<li>
+								<part>Receiver</part>
+								<baseTexture>
+								<texturePath>Things/Item/Equipment/WeaponRanged/K2_BullpupRifle</texturePath>
+								<offset>(0, 0)</offset>
+								</baseTexture>
+								<layer>0</layer>
+						</li>
+					</attachmentPoints>
+			</li>
+			</comps>
+	</CWF.AdapterDef>
+</Defs>

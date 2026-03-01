@@ -41,6 +41,11 @@
         <displayName>Custom Weapons Expanded</displayName>
         <steamWorkshopUrl>steam://url/CommunityFilePage/3560528949</steamWorkshopUrl>
       </li>
+      <li>
+        <packageId>ThotDestroyer.TheHangedMenArmory</packageId>
+        <displayName>The Hanged Men Armory</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/3094262731</steamWorkshopUrl>
+      </li>
   </modDependencies>
 
   <loadAfter>
@@ -49,6 +54,7 @@
     <li>Poncho.AutomaticHydroponics</li>
     <li>Vortex.CustomizeWeapon</li>
     <li>Feliperathal.CustomizeWeaponExpanded</li>
+    <li>ThotDestroyer.TheHangedMenArmory</li>
   </loadAfter>
 
 </ModMetaData>
