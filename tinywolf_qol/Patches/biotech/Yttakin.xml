@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationRemove">
+    <!-- Remove Body_Hulk -->
+    <!-- Remove Furskin -->
+    <!-- Remove Hair_BaldOnly -->
+    <!-- Remove Beard_Always -->
+    <xpath>
+      Defs/XenotypeDef[defName="Yttakin"]/genes/li[1] | 
+      Defs/XenotypeDef[defName="Yttakin"]/genes/li[3] | 
+      Defs/XenotypeDef[defName="Yttakin"]/genes/li[4] | 
+      Defs/XenotypeDef[defName="Yttakin"]/genes/li[6]
+    </xpath>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/XenotypeDef[defName="Yttakin"]/genes</xpath>
+	<value>
+      <li>MinTemp_SmallDecrease</li>
+      <li>Ears_Cat</li>
+      <li>SevereNanoStructure</li>
+	</value>
+  </Operation>
+	
+</Patch>

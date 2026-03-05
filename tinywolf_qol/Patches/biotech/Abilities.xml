@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <!-- ================= Biotech ================= -->
+    <!-- FireSpew -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/AbilityDef[defName="FireSpew"]/cooldownTicksRange</xpath>
+        <value>
+            <!--  12 hours -->
+            <cooldownTicksRange>30000</cooldownTicksRange>
+        </value>
+    </Operation>
+
+    <!-- ================= Ideology ================= -->
+    <!-- Convert -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AbilityDef[defName="Convert"]</xpath>
+        <value>
+            <!--  12 hours -->
+            <cooldownTicksRange>30000</cooldownTicksRange>
+        </value>
+    </Operation>
+
+    <!-- PreachHealth -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AbilityDef[defName="PreachHealth"]</xpath>
+        <value>
+            <!--  12 hours -->
+            <cooldownTicksRange>30000</cooldownTicksRange>
+        </value>
+    </Operation>
+
+    <!-- Reassure -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AbilityDef[defName="Reassure"]</xpath>
+        <value>
+            <!--  12 hours -->
+            <cooldownTicksRange>30000</cooldownTicksRange>
+        </value>
+    </Operation>
+
+    <!-- Counsel -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AbilityDef[defName="Counsel"]</xpath>
+        <value>
+            <!--  12 hours -->
+            <cooldownTicksRange>30000</cooldownTicksRange>
+        </value>
+    </Operation>
+</Patch>

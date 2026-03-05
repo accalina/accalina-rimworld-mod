@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ResearchProjectDef>
+		<defName>ExperimentalFabrication</defName>
+		<label>experimental fabrication</label>
+		<description>Combines knowledge of machining and biofuel refining to develop ways to craft unobtainable circuitry and meterial.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>BiofuelRefining</li>
+			<li>Machining</li>
+		</prerequisites>
+		<researchViewX>8.815</researchViewX>
+		<researchViewY>5.115</researchViewY>
+		<tab>Main</tab>
+	</ResearchProjectDef>
+</Defs>
+
+

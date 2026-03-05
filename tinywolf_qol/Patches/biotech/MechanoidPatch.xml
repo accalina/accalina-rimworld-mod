@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Paramedic -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Mech_Paramedic"]/race</xpath>
+    <value>
+      <mechFixedSkillLevel>20</mechFixedSkillLevel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Mech_Paramedic"]/statBases/MoveSpeed</xpath>
+    <value>
+      <!-- default is 3.8 -->
+      <MoveSpeed>16</MoveSpeed>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Mech_Paramedic"]/statBases</xpath>
+    <value>
+      <!-- default is 1.5 -->
+      <MedicalTendSpeed>8</MedicalTendSpeed>
+    </value>
+  </Operation>
+
+  <!-- MedicalTendQuality -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Mech_Paramedic"]/statBases</xpath>
+    <value>
+      <MedicalTendQuality>2</MedicalTendQuality>
+    </value>
+  </Operation>
+
+  <!-- MedicalOperationSpeed -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Mech_Paramedic"]/statBases</xpath>
+    <value>
+      <!-- default is 1.0 -->
+      <MedicalOperationSpeed>8</MedicalOperationSpeed>
+    </value>
+  </Operation>
+
+  <!-- MedicalSurgerySuccessChance -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Mech_Paramedic"]/statBases</xpath>
+    <value>
+      <!-- default is 0.75 -->
+      <MedicalSurgerySuccessChance>0.95</MedicalSurgerySuccessChance>
+    </value>
+  </Operation>
+
+
+  <!-- Lifter -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Mech_Lifter"]/statBases/MoveSpeed</xpath>
+    <value>
+      <!-- default is 2.8 -->
+      <MoveSpeed>16</MoveSpeed>
+    </value>
+  </Operation>
+
+
+  <!-- Cleansweeper -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Mech_Cleansweeper"]/statBases/CleaningSpeed</xpath>
+    <value>
+      <!-- default is 0.5 -->
+      <CleaningSpeed>1</CleaningSpeed>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Mech_Cleansweeper"]/statBases</xpath>
+    <value>
+      <MoveSpeed>16</MoveSpeed>
+    </value>
+  </Operation>
+
+
+  <!-- Constructoid -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Mech_Constructoid"]/statBases/ConstructionSpeed</xpath>
+    <value>
+      <!-- default is 0.5 -->
+      <ConstructionSpeed>20</ConstructionSpeed>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Mech_Constructoid"]/statBases</xpath>
+    <value>
+      <MoveSpeed>16</MoveSpeed>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Mech_Constructoid"]/race</xpath>
+    <value>
+      <mechFixedSkillLevel>20</mechFixedSkillLevel>
+    </value>
+  </Operation>
+
+
+  <!-- Agrihand -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Mech_Agrihand"]/statBases/PlantWorkSpeed</xpath>
+    <value>
+      <!-- default is 0.8 -->
+      <PlantWorkSpeed>20</PlantWorkSpeed>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Mech_Agrihand"]/statBases</xpath>
+    <value>
+      <!-- default is 0.8 -->
+      <MoveSpeed>16</MoveSpeed>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Mech_Agrihand"]/race</xpath>
+    <value>
+      <mechFixedSkillLevel>20</mechFixedSkillLevel>
+    </value>
+  </Operation>
+
+
+  <!-- Heavy Mechanoids - Tunneler -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Mech_Tunneler"]/statBases</xpath>
+    <value>
+      <MoveSpeed>16</MoveSpeed>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Mech_Tunneler"]/race</xpath>
+    <value>
+      <mechFixedSkillLevel>20</mechFixedSkillLevel>
+    </value>
+  </Operation>
+
+  <!-- MiningSpeed -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Mech_Tunneler"]/statBases</xpath>
+    <value>
+      <MiningSpeed>20</MiningSpeed>
+    </value>
+  </Operation>
+
+  <!-- Mech_Fabricor -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Mech_Fabricor"]/statBases</xpath>
+    <value>
+      <MoveSpeed>16</MoveSpeed>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Mech_Fabricor"]/race</xpath>
+    <value>
+      <mechFixedSkillLevel>20</mechFixedSkillLevel>
+    </value>
+  </Operation>
+
+  <!-- GeneralLaborSpeed -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Mech_Fabricor"]/statBases</xpath>
+    <value>
+      <GeneralLaborSpeed>40</GeneralLaborSpeed>
+    </value>
+  </Operation>
+
+  <!-- DrugSynthesisSpeed -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Mech_Fabricor"]/statBases</xpath>
+    <value>
+      <DrugSynthesisSpeed>20</DrugSynthesisSpeed>
+    </value>
+  </Operation>
+
+  <!-- SmeltingSpeed -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Mech_Fabricor"]/statBases</xpath>
+    <value>
+      <SmeltingSpeed>40</SmeltingSpeed>
+    </value>
+  </Operation>
+
+  
+
+
+</Patch>
